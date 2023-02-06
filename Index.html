@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cajero automatico</title>
+</head>
+<body>
+  <form action="">
+    <h1>Login</h1>
+    <label for="">Usuario</label>
+    <input type="text" name="u" id="">
+    <label for="">pasword</label>
+    <input type="pasword" name="c" id=""> 
+    <input type="button" value="Ingresar" onclick="login(this.form)"> 
+  </form>
+  <script>
+    function login(form){
+      if (form.u.value=="david") {
+        if (form.c.value=="2004") {
+          location="vanadium.html";
+        } else {
+          alert("Constraseña incorrecta")
+        }
+      } else {
+        alert("Usuario incorrecto") 
+      }
+
+    }
+    /*
+    function login2(form){
+      if (form.u.value=="andres") { 
+        if (form.c.value=="1012") {
+     pus     location="vanadium.html";
+        } else {
+          alert("Constraseña incorrecta")
+        }
+      } else {
+        alert("Usuario incorrecto") 
+      }
+
+    }
+    function login3(form){
+      if (form.u.value=="emmanuel") { 
+        if (form.c.value=="2008") {
+          location="vanadium.html";
+        } else {
+          alert("Constraseña incorrecta")
+        }
+      } else {
+        alert("Usuario incorrecto") 
+      }
+
+    }*/
+
+  </script>
+</body>
+</html>
